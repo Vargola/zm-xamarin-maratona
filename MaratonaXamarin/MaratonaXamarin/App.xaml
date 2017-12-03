@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaratonaXamarin.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="styleLabel1" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Font" Value="Medium"/>
+            </Style>
+            <Style x:Key="styleLabel2" TargetType="Label">
+                <Setter Property="TextColor" Value="Gray"/>
+                <Setter Property="Font" Value="Small"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
